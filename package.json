@@ -1,0 +1,17 @@
+{
+  "name": "real-time-chat-app",
+  "version": "1.0.0",
+  "description": "This is real time chat app using node and socket",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+    
+  },
+  "author": "Sarthak M. Wagh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "socket.io": "^4.2.0"
+  }
+}

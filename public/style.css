@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(180deg, rgb(4, 226, 226), rgb(128, 145, 112));
+    font-family: 'Roboto', sans-serif;
+    overflow-y: hidden;
+   
+}
+   
+.logo img{
+    height: 40px;
+    object-fit: contain;
+    padding-block-end: 6px;
+}
+section.chat__section {
+   
+    justify-content: center;
+    margin: 20px auto;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    max-width: 90%;
+    background: #fff;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.brand {
+    padding: 20px;
+    background: #ec8ee1;
+    display: flex;
+    align-items: center;
+}
+.brand h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 600;
+}
+.message__area{
+    height: 450px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+    background-color: rgb(250, 244, 235);
+    background: url('/bg_main.png');
+    /* object-fit: contain; */
+    background-repeat: repeat;
+    background-position: center;
+}
+textarea {
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background: #ffffff;
+}
+
+.message {
+    padding: 20px; 
+    border-radius: 4px; 
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}
+.incoming {
+    background: #1a9d75;
+    color: #fff;  
+}
+.outgoing {
+    background: #d1f5e0;
+    color: #787986;
+    margin-left: auto;
+}
+.message h4 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: white;
+    font-size: 14px;
+}
+
+
+
